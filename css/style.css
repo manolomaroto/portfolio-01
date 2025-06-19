@@ -40,3 +40,36 @@ nav>ul>li>a {
 .contact>a {
     color: #000;
 }
+
+.image-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa.fa-map-marker {
+    font-size: 85px;
+    color: #61FF10;
+}
+
+.image-text__content h3 {
+    padding: 10px;
+}
+
+.image__content img {
+    border-radius: 15px;
+    box-shadow: 0 50px 50px 10px #ED9437;
+}
+
+.presentation {
+    margin-top: 50px;
+}
+
+.presentation__img {
+    display: flex;
+    justify-content: center;
+}
+
+.presentation__img div{
+    padding: 30px;
+}
