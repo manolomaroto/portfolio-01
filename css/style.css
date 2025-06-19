@@ -65,7 +65,7 @@ nav>ul>li>a {
     margin-top: 50px;
 }
 
-.presentation__img {
+.presentation__img, .presentation_text {
     display: flex;
     justify-content: center;
 }
@@ -73,3 +73,10 @@ nav>ul>li>a {
 .presentation__img div{
     padding: 30px;
 }
+
+.presentation_text {
+    max-width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
