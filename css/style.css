@@ -65,7 +65,7 @@ nav>ul>li>a {
     margin-top: 50px;
 }
 
-.presentation__img, .presentation_text, .services {
+.presentation__img, .presentation_text, .services, .projects {
     display: flex;
     justify-content: center;
 }
@@ -87,26 +87,46 @@ nav>ul>li>a {
     font-size: 1.7rem;
 }
 
-.services {
+.services, .projects {
     flex-direction: column;
     align-items: center;
 }
 
-.services h2 {
+.services h2, .projects h2 {
     font-size: 4rem;
 }
 
-.services__cards {
+.services__cards, .projects__cards {
     display: flex;
+    justify-content: space-around;
 }
 
-.service__card {
+.service__card, .project__card {
     padding: 20px 30px;
     border-radius: 15px;
     background-color: #F4F4F4;
     margin: 0 10px;
+    margin-top: 20px;
 }
 
 .header__card {
     margin-bottom: 100px;
+}
+
+.space-between {
+    justify-content: space-between;
+    width: 50%
+}
+
+.projects {
+    padding-top: 100px;
+}
+
+.image {
+    transition: transform .2s;
+}
+
+.image:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
